@@ -31,7 +31,7 @@ namespace COMP_123_Assignment_02
         }
 
         //private Method++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-        public void generateRandomPowers()
+        private void generateRandomPowers()
         {
             
            
