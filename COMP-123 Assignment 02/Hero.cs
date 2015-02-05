@@ -3,7 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+/*
+ * Student Name: LI XU
+ * Student ID: 300735072
+ * Assignment 01
+ * COMP-123
+ */
 namespace COMP_123_Assignment_02
 {
     class Hero
@@ -64,13 +69,13 @@ namespace COMP_123_Assignment_02
 
             if (this.rdmNumber >= 1 && this.rdmNumber <= 20) //if the hero hits, the health will be between 1-20
             {
-                Console.WriteLine("Hero attempt to hit!");
+                Console.WriteLine("{0} attempt to hit!",this.name);
                 return true;
             }
             else // if not, will return false.
             {
-                Console.WriteLine("Hero did not hit!");
-                Console.WriteLine("generates the this.rdmNumber number which is {0} is more than 20.", this.rdmNumber);
+                Console.WriteLine("{0} did not hit!",this.name);
+                Console.WriteLine("generates the this.rdmNumber number is {0} which is more than 20.", this.rdmNumber);
                 return false;
             }
         }
